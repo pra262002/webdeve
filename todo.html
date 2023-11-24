@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    
+    <style>
+        #container{
+            background-color: #5b3939;
+            width: 400px;
+            margin: auto;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #container h1{
+            color: rgb(7, 167, 167);
+            font-size: 25px;
+            font-weight:bold;
+            text-transform: uppercase;
+            text-decoration: underline;
+        }
+        .text input{
+            height: 30px;
+            width: 200px;
+            border: none;
+            border-radius: 5px;
+        }
+        .text button{
+            height: 30px;
+            width: 80px;
+            border-radius: 5px;
+            background-color: #b71313;
+            color: white;
+            border:none;     
+        }
+        ul i{
+            margin:relative;
+            color: #df1212;
+        }
+        ul{
+            color: white;
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <section id ="container">
+        <h1>todo</h1>
+        <div class="text">
+            <input type="text" id="input" placeholder="enter">
+            <button id="addBtn">add</button>
+        </div>
+        <div id="data">
+
+        </div>
+    </section>
+    <script src="todo.js"></script>
+</body>
+</html>
